@@ -22,7 +22,7 @@ const projects = [
     link: "https://i.postimg.cc/x1dPxWFH/Screenshot-2025-07-12-173844.png",
     color: "#8f89ff",
     githubLink: "https://github.com/zohadurrjafri/Portfolio",
-    liveLink: "",
+    liveLink: "https://portfolio-beta-green-32.vercel.app/",
   },
   {
     title: "Smart Train Route Planner",
@@ -95,7 +95,7 @@ export default function Projects() {
             const targetScale = 1 - (projects.length - i) * 0.05;
             return (
               <Card
-                key={`p_${i}`}
+                key={p_${i}}
                 i={i}
                 url={project.link}
                 title={project.title}
@@ -138,8 +138,8 @@ function Card({
       <motion.div
         style={{
           scale,
-          top: `calc(-5vh + ${i * 25}px)`,
-          transform: `scale(var(--project-scale, 1))`,
+          top: calc(-5vh + ${i * 25}px),
+          transform: scale(var(--project-scale, 1)),
           marginTop: "var(--project-margin, 0)",
         }}
         className="relative -top-[25%] h-auto w-[90%] md:w-[85%] lg:w-[75%] xl:w-[65%] origin-top project-card"
