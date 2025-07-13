@@ -218,7 +218,7 @@ const profile = {
                 
                 {/* Resume */}
                 <a
-                  href="/resume.pdf"
+                  href="/ZohadurRahmanJafri_Resume.pdf"
                   download
                   className="group relative inline-flex items-center justify-center gap-3 p-0.5 rounded-xl bg-gradient-to-r from-gray-800 to-gray-700 transition-all duration-300 hover:scale-105 hover:shadow-[0_0_2rem_-0.5rem_#60A5FA]"
                 >
@@ -233,10 +233,10 @@ const profile = {
                 {/* Profile Links */}
                 {/* GitHub */}
                 <a
-                  href="https://github.com/your-github-username"
+                  href="https://github.com/zohadurrjafri"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-gray-400 hover:text-white transition-all duration-300 text-2xl"
+                  className="text-gray-400 hover:text-white transition-all duration-300 text-5xl"
                   aria-label="GitHub"
                 >
                   <i className="fab fa-github"></i>
@@ -244,10 +244,10 @@ const profile = {
 
                 {/* LinkedIn */}
                 <a
-                  href="https://www.linkedin.com/in/your-linkedin-username"
+                  href="https://www.linkedin.com/in/zohadurrjafri"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-400 hover:text-white transition-all duration-300 text-2xl"
+                  className="text-blue-400 hover:text-white transition-all duration-300 text-5xl"
                   aria-label="LinkedIn"
                 >
                   <i className="fab fa-linkedin"></i>
