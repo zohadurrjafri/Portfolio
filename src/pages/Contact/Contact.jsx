@@ -58,17 +58,21 @@ export default function Contact() {
     form.append("email", formData.email);
     form.append("subject", formData.subject || "New Contact Form Submission");
     form.append("message", formData.message);
+    form.append("botcheck", ""); // anti-spam
 
     try {
       // Send form data to Web3Forms API
       const response = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
         body: form,
+        headers: {
+          Accept: "application/json",
+        },
       });
 
       const result = await response.json();
 
-      if (response.ok) {
+      if (response.ok && result.success) {
         setStatus("Message sent successfully!");
         setFormData({
           name: "",
