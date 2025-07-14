@@ -42,7 +42,7 @@ const EducationSection = () => {
       achievements: ["Percentage: 86.8"],
       skills: ["Mathematics", "Science", "Social Science", "English"],
       description:
-        "Focused on core science subjects with emphasis on practical laboratory work and scientific research methodologies.",
+        "Completed Senior Secndary Education with a solid foundation in core subjects. Gained practical knowledge and skills through hands-on learning and application-based studies.",
     }
   ];
 
