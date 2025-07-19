@@ -41,12 +41,6 @@ This **Portfolio Website** is a sleek and responsive personal website designed t
 
 ---
 
-## 📁 Project Structure
-
-```bas
-
----
-
 ## 🚀 Installation & Setup
 
 ### 1️⃣ Clone the Repository
