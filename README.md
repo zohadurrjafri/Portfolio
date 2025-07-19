@@ -26,7 +26,8 @@ This **Portfolio Website** is a sleek and responsive personal website designed t
 
 ## 🌍 Live Preview
 
-🚀 **[Click here to view the live site]([https://portfolio-beta-green-32.vercel.app/)**]
+🚀 **[Click here to view the live site](https://portfolio-beta-green-32.vercel.app/)**
+
 
 ---
 
@@ -51,7 +52,7 @@ This **Portfolio Website** is a sleek and responsive personal website designed t
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/seraprogrammer/portfolio.git
+git clone https://github.com/zohadurrjafri/Portfolio.git
 cd portfolio
 ```
 
