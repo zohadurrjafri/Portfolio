@@ -157,6 +157,7 @@ const EducationSection = () => {
                     >
                       {skill}
                     </span>
+                    // A few update
                   ))}
                 </div>
               </div>
