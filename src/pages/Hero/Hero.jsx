@@ -231,17 +231,6 @@ const profile = {
                 </a>
 
                 {/* Profile Links */}
-                {/* GitHub */}
-                <a
-                  href="https://github.com/zohadurrjafri"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-400 hover:text-white transition-all duration-300 text-5xl"
-                  aria-label="GitHub"
-                >
-                  <i className="fab fa-github"></i>
-                </a>
-
                 {/* LinkedIn */}
                 <a
                   href="https://www.linkedin.com/in/zohadurrjafri"
