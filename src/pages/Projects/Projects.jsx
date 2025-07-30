@@ -11,7 +11,6 @@ const projects = [
     src: "rock.jpg",
     link: "https://i.postimg.cc/7PTdXTTD/Screenshot-2025-07-12-173656.png",
     color: "#5196fd",
-    githubLink: "https://github.com/zohadurrjafri/AlgoArena",
     liveLink: "https://algo-arena-lilac.vercel.app/",
   },
   {
@@ -21,7 +20,6 @@ const projects = [
     src: "tree.jpg",
     link: "https://i.postimg.cc/x1dPxWFH/Screenshot-2025-07-12-173844.png",
     color: "#8f89ff",
-    githubLink: "https://github.com/zohadurrjafri/Portfolio",
     liveLink: "https://portfolio-beta-green-32.vercel.app/",
   },
   {
@@ -31,7 +29,6 @@ const projects = [
     src: "water.jpg",
     link: "https://i.postimg.cc/7b8pMqNg/A.png",
     color: "#fff",
-    githubLink: "https://github.com/zohadurrjafri/TrainTicket",
     liveLink: "https://train-ticket-rvn.vercel.app/",
   },
 ];
